@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{e4baacc7-6754-4872-a6ba-370b006d4fba}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;txt</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{81d447ea-0729-4f53-8bc1-6b33b9ff3949}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{fe9b0e00-8382-4088-838d-17699882dab7}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\APP">
+      <UniqueIdentifier>{59105118-04ac-4096-821c-929155c6ec22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP">
+      <UniqueIdentifier>{5623c6b0-a86f-4021-90f8-9b10ad8459df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP\APP_Config">
+      <UniqueIdentifier>{e0e16368-4b14-4409-9af7-530e8c60c86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP\APP_POR">
+      <UniqueIdentifier>{de7e3e78-88b6-4f37-b7b1-307bd6b02ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\APP\APP_SRC">
+      <UniqueIdentifier>{69b3267e-7157-4d0d-a88d-8d553b8f9ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS">
+      <UniqueIdentifier>{f1b5df2e-501c-4ca4-a408-0efb337cf016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS">
+      <UniqueIdentifier>{000b1653-5393-4557-925a-ccd5d737d201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\HQSConfig">
+      <UniqueIdentifier>{200a7f6e-6a14-4296-a2e5-73ec90c2ead3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\HQSConfig">
+      <UniqueIdentifier>{52b1e47a-b845-4d77-aec2-0aa6231ed658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\HQS_typedef">
+      <UniqueIdentifier>{043d0bac-a2cb-486b-bca6-6b3f61557916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\HQS_typedef">
+      <UniqueIdentifier>{5f568408-1841-4b7c-8794-c8ad1ca3ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries">
+      <UniqueIdentifier>{da447158-a99d-4819-a924-b2af1ccdba66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries">
+      <UniqueIdentifier>{2d8a79b7-5f88-4e7d-94ac-350fccf45a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS">
+      <UniqueIdentifier>{b0cfdff8-b6c4-4be8-aff0-fb859271b978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS">
+      <UniqueIdentifier>{fa6058ca-5a73-4bcd-9c43-e9916f8f82ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\CM3">
+      <UniqueIdentifier>{f4780ed8-afb1-4d69-98f9-1c9ec5d44c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\CM3">
+      <UniqueIdentifier>{6a05e6ae-527e-46f8-9f09-273c30494fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\CM3\CoreSupport">
+      <UniqueIdentifier>{3f2073e5-5ded-4adc-8b20-013a15100ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\CM3\CoreSupport">
+      <UniqueIdentifier>{52009141-ae6d-4f6e-b042-be507f42980a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\CM3\DeviceSupport">
+      <UniqueIdentifier>{4081159f-69cf-47f9-8123-ff2ffee5db6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\CM3\DeviceSupport">
+      <UniqueIdentifier>{e29c5de9-1de4-4176-a2e0-e7688b113097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\CM3\DeviceSupport\ST">
+      <UniqueIdentifier>{f905ea90-b7be-4e21-bad0-62b61ccc6576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\CM3\DeviceSupport\ST">
+      <UniqueIdentifier>{01abe70e-faec-428f-b083-fe03f754a36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x">
+      <UniqueIdentifier>{57f07501-7ead-428b-88df-9f30e5614337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x">
+      <UniqueIdentifier>{91595d1e-246a-4928-9d73-aadefa2f0264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{ff00ab97-beb3-4ec2-a638-7c8ded4da343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32F10x_StdPeriph_Driver">
+      <UniqueIdentifier>{27c639f0-40f9-43bf-9878-10f80a20ff7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32F10x_StdPeriph_Driver\inc">
+      <UniqueIdentifier>{a22ea8be-4957-4703-951b-9102cca70ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32F10x_StdPeriph_Driver\src">
+      <UniqueIdentifier>{1372f76c-dd1e-4f3d-8701-e441efb78180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32F10x_StdPeriph_Driver\src">
+      <UniqueIdentifier>{c325b091-ba20-41f2-9590-83becac975dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32_ETH_Driver">
+      <UniqueIdentifier>{0b77af42-8c64-4345-a330-4d43c4028d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32_ETH_Driver">
+      <UniqueIdentifier>{c9189c4e-8e7c-4ccd-a0b1-463b5e1836d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Libraries\STM32_ETH_Driver\inc">
+      <UniqueIdentifier>{4148fb4b-da48-4325-b644-710e7e9124c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Libraries\STM32_ETH_Driver\src">
+      <UniqueIdentifier>{d18b9e30-033f-42f1-a74a-cdb7ed163128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL">
+      <UniqueIdentifier>{b9668a80-1d92-4395-b188-7cbd2758156b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL">
+      <UniqueIdentifier>{88ad46ba-093e-4614-9184-1464545afa1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\HALHQSConfig">
+      <UniqueIdentifier>{b65fad8a-7f3f-4334-9e04-44c07e77a7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\HQS_SYS">
+      <UniqueIdentifier>{467841c3-1bf0-43de-82fb-fd74e2bf50c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\HQS_SYS">
+      <UniqueIdentifier>{f46715cc-ab38-4498-9a8e-d1de18d388d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\USART1HAL">
+      <UniqueIdentifier>{f16bbc7e-bc17-48db-bca2-569e56ba6cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\USART1HAL">
+      <UniqueIdentifier>{40d14e49-fc8b-46a8-8820-d9d89e6c0b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{546e92c5-d976-4939-8d62-5b7ad4d3b217}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{cc6ce214-31fc-40c9-8eb1-eaf8e09b1bf0}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\ETHCFHAL">
+      <UniqueIdentifier>{9149b151-7aea-483f-ada4-24cb200dfe32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\ETHCFHAL">
+      <UniqueIdentifier>{d1eda3ff-9354-4ed4-a393-0d6465d09d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\USART2HAL">
+      <UniqueIdentifier>{edef907b-cdb4-4970-a34e-68b626e9ee8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\USART2HAL">
+      <UniqueIdentifier>{14b024cf-2508-40b9-b033-048f397628af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\IOOutHQS">
+      <UniqueIdentifier>{4caac97c-0bb8-429c-8838-d2a7703cd9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\IOOutHQS">
+      <UniqueIdentifier>{469393fb-ffd3-4d9f-b7e0-52a24324045b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\IOOutHALHQS">
+      <UniqueIdentifier>{749e8b9d-9395-48a3-8f4a-2ae11554d1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\IOOutHALHQS">
+      <UniqueIdentifier>{529dbf64-0462-486c-82d6-9ee48e5c5ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ICDriveSre">
+      <UniqueIdentifier>{4b387da2-be8d-4eda-b564-93b85de3b89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ICDriveSre">
+      <UniqueIdentifier>{2e200ee6-e32c-4f97-8c57-83f91cc7032c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ICDriveSre\ICDriveSreConfig">
+      <UniqueIdentifier>{454589da-27a2-4870-b198-aaa574fa019e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1">
+      <UniqueIdentifier>{48f84e7f-a486-4077-92b2-fd26863f4f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\doc">
+      <UniqueIdentifier>{5915df1f-b2d1-4aa9-aec7-29d22fc96ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\src">
+      <UniqueIdentifier>{1e4186e0-40c5-4efc-92c3-4ae2abaeafb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\src\api">
+      <UniqueIdentifier>{fd2d1e58-5bc6-4cd3-93b5-14fe35a1f096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\src\core">
+      <UniqueIdentifier>{e3334539-5191-4aa2-a39e-2251df59dfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\src\core\ipv4">
+      <UniqueIdentifier>{7f279cc5-16f8-4498-a1d3-00e43241e3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1">
+      <UniqueIdentifier>{b71a5712-9d5b-469d-a7f2-7aeca35e91e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src">
+      <UniqueIdentifier>{ad324fc0-4ebf-4128-bd84-4fc4724c808f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\include">
+      <UniqueIdentifier>{bc5d86f4-d5ff-495b-8c91-c668847dc364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\include\ipv4">
+      <UniqueIdentifier>{27b1dd50-3ead-4d02-8f61-241fa6424440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\include\ipv4\lwip">
+      <UniqueIdentifier>{e68418a4-442f-4bf6-b37c-b22851e5d0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\include\netif">
+      <UniqueIdentifier>{232fb32b-0755-4dfc-9da4-5e0ef2ab8d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\src\netif">
+      <UniqueIdentifier>{755f32e7-70d8-4b08-acf3-325525864bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\netif">
+      <UniqueIdentifier>{f0e1ad2b-b332-4d7e-b38e-ba4285893592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\src\netif\ppp">
+      <UniqueIdentifier>{e3a36aac-8064-4671-8e0b-0305fad20bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\arch">
+      <UniqueIdentifier>{6ebfee3c-73c4-4b4f-87e9-6285eaa98ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\arch">
+      <UniqueIdentifier>{b19657dd-01a0-4748-a99d-08cb595102a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\HQSlwip">
+      <UniqueIdentifier>{d4488004-f7c0-4c91-9600-914d7faeeeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\HQSlwip">
+      <UniqueIdentifier>{7c64800d-0755-40ce-8072-e7a0963810d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\HQSlwip\HQSUDP">
+      <UniqueIdentifier>{97943734-3e9a-4a74-b671-8835450b2887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\HQSlwip\HQSUDP">
+      <UniqueIdentifier>{ffab5b3d-227b-4249-89b4-720806a0d2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\HQSlwip\HQSTcpClient">
+      <UniqueIdentifier>{f7e6e6d0-9513-4df0-b458-7f99abe5d3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\HQSlwip\HQSTcpClient">
+      <UniqueIdentifier>{e04f74d1-e3ae-4c19-a040-96041d7d384f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\HQSlwip\HQSTcpService">
+      <UniqueIdentifier>{f01c5d08-2604-4010-9f8a-1b8c7c231575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\HQSlwip\HQSTcpService">
+      <UniqueIdentifier>{282bb550-10b2-4280-abf7-39cfcd89ad06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lwip-1.4.1\HQSlwip\HQSWeb">
+      <UniqueIdentifier>{14821006-8047-46dd-b440-e062bf8ec71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip-1.4.1\HQSlwip\HQSWeb">
+      <UniqueIdentifier>{4de21b43-f44f-4eaf-b278-577d1685a8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\FlashRWHALHQS">
+      <UniqueIdentifier>{ee69246f-2562-46b5-b6e0-da08ca7553c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\FlashRWHALHQS">
+      <UniqueIdentifier>{824f0eef-2c4d-48bb-acc6-851412b405fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\memPithyHQS">
+      <UniqueIdentifier>{dea24270-27c7-4650-84ed-17055a4a733a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\memPithyHQS">
+      <UniqueIdentifier>{b4e37774-3bb4-4151-98ce-b9b177fec545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\APP\APP_ResolveOut">
+      <UniqueIdentifier>{ca03c140-7dfa-46b6-a3a4-8a0361bde207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP\APP_ResolveOut">
+      <UniqueIdentifier>{7f72500b-539b-48cb-b498-902817d7f8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\OSHQS">
+      <UniqueIdentifier>{adf86925-8fd7-4c95-90f4-42c1502f3578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\OSHQS">
+      <UniqueIdentifier>{ca0fc528-df5c-4479-bb7a-c275a1d0a755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\msgOSHQS">
+      <UniqueIdentifier>{1ab4ecda-7112-40c7-8ddb-4dc09b2c891c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\msgOSHQS">
+      <UniqueIdentifier>{55a42643-2bf0-4440-a2d7-67e4eb73db48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\PVDHAL">
+      <UniqueIdentifier>{30937c02-a2af-4800-87e5-147b10dd88a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\PVDHAL">
+      <UniqueIdentifier>{b6dac8d0-82de-4c2e-a75b-aaa7570178eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\BKPHAL">
+      <UniqueIdentifier>{9ada2b96-d4d9-4d4d-bb1c-0bcb991cc685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\BKPHAL">
+      <UniqueIdentifier>{4a703f7d-adc7-448a-b413-5f0a60c8436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\RTCHAL">
+      <UniqueIdentifier>{d7014452-ac17-49de-bea1-45741f07746d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\RTCHAL">
+      <UniqueIdentifier>{14f6a729-2802-41ca-8117-939e69edacb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\TimeHQS">
+      <UniqueIdentifier>{9dc29d69-6688-40c5-a6fe-ed809cdb1e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\TimeHQS">
+      <UniqueIdentifier>{f6c7c190-8064-4780-b406-f9840bc87e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HQS\activationCodeHQS">
+      <UniqueIdentifier>{e40ec8ba-5be6-41dd-87a4-fcec97f4023b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HQS\activationCodeHQS">
+      <UniqueIdentifier>{5075f240-ab07-46c7-b388-ced9fa8e61a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\stm32f10xHAL\TIMcountHAL">
+      <UniqueIdentifier>{aa85086f-870f-4009-9754-a0c7c66f275d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\stm32f10xHAL\TIMcountHAL">
+      <UniqueIdentifier>{69aef3bf-04b4-4de6-b337-a404d72c4fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APP\APP_Config\APP_Config.h">
+      <Filter>Header files\APP\APP_Config</Filter>
+    </ClInclude>
+    <ClInclude Include="APP\APP_POR\includeshqs.h">
+      <Filter>Header files\APP\APP_POR</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\HQSConfig\HQSConfig.h">
+      <Filter>Header files\HQS\HQSConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\HQS_typedef\HQS_typedef.h">
+      <Filter>Header files\HQS\HQS_typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\CMSIS\CM3\CoreSupport\core_cm3.h">
+      <Filter>Header files\Libraries\CMSIS\CM3\CoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h">
+      <Filter>Header files\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h">
+      <Filter>Header files\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_conf.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h">
+      <Filter>Header files\Libraries\STM32F10x_StdPeriph_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\STM32_ETH_Driver\inc\stm32_eth.h">
+      <Filter>Header files\Libraries\STM32_ETH_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\HALHQSConfig\HALHQSConfig.h">
+      <Filter>Header files\stm32f10xHAL\HALHQSConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\HQS_SYS\HQS_SYS.h">
+      <Filter>Header files\stm32f10xHAL\HQS_SYS</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\USART1HAL\USART1.h">
+      <Filter>Header files\stm32f10xHAL\USART1HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\ETHCFHAL\ETHCFHAL.h">
+      <Filter>Header files\stm32f10xHAL\ETHCFHAL</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\USART2HAL\USART2.h">
+      <Filter>Header files\stm32f10xHAL\USART2HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\IOOutHQS\IOOutHQS.h">
+      <Filter>Header files\HQS\IOOutHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\IOOutHQS\IOOutHQS_typedef.h">
+      <Filter>Header files\HQS\IOOutHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\IOOutHALHQS\IOOutHALHQS.h">
+      <Filter>Header files\stm32f10xHAL\IOOutHALHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="ICDriveSre\ICDriveSreConfig\ICDriveSreConfig.h">
+      <Filter>Header files\ICDriveSre\ICDriveSreConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\autoip.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\icmp.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\igmp.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\inet.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\inet_chksum.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\ip.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\ip_addr.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\ipv4\lwip\ip_frag.h">
+      <Filter>Header files\lwip-1.4.1\src\include\ipv4\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\netif\etharp.h">
+      <Filter>Header files\lwip-1.4.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\netif\ppp_oe.h">
+      <Filter>Header files\lwip-1.4.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\netif\slipif.h">
+      <Filter>Header files\lwip-1.4.1\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\auth.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\chap.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\chpms.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\fsm.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\ipcp.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\lcp.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\magic.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\md5.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\pap.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\ppp.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\pppdebug.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\ppp_impl.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\randm.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\netif\ppp\vj.h">
+      <Filter>Header files\lwip-1.4.1\src\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\arch\cc.h">
+      <Filter>Header files\lwip-1.4.1\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\arch\perf.h">
+      <Filter>Header files\lwip-1.4.1\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\arch\sys_arch.h">
+      <Filter>Header files\lwip-1.4.1\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\src\include\lwipopts.h">
+      <Filter>Header files\lwip-1.4.1\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSlwip.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSUDP\HQSUDP.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSTcpClient\HQSTcpClient.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSTcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSTcpService\HQSTcpService.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSTcpService</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSWeb\fs.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSWeb\fsdata.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSWeb\httpd.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="lwip-1.4.1\HQSlwip\HQSWeb\httpd_structs.h">
+      <Filter>Header files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\FlashRWHALHQS\FlashRWHALHQS.h">
+      <Filter>Header files\stm32f10xHAL\FlashRWHALHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\memPithyHQS\memPithyHQS.h">
+      <Filter>Header files\HQS\memPithyHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="APP\APP_ResolveOut\APP_ResolveOut.h">
+      <Filter>Header files\APP\APP_ResolveOut</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\OSHQS\OSHQS.h">
+      <Filter>Header files\HQS\OSHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\msgOSHQS\msgOSHQS.h">
+      <Filter>Header files\HQS\msgOSHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\PVDHAL\PVDHAL.h">
+      <Filter>Header files\stm32f10xHAL\PVDHAL</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\BKPHAL\BKPHAL.h">
+      <Filter>Header files\stm32f10xHAL\BKPHAL</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\RTCHAL\RTCHAL.h">
+      <Filter>Header files\stm32f10xHAL\RTCHAL</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\TimeHQS\TimeHQS.h">
+      <Filter>Header files\HQS\TimeHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="HQS\activationCodeHQS\activationCodeHQS.h">
+      <Filter>Header files\HQS\activationCodeHQS</Filter>
+    </ClInclude>
+    <ClInclude Include="stm32f10xHAL\TIMcountHAL\TIMcountHAL.h">
+      <Filter>Header files\stm32f10xHAL\TIMcountHAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APP\APP_SRC\APP_main.c">
+      <Filter>Source files\APP\APP_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\CMSIS\CM3\CoreSupport\core_cm3.c">
+      <Filter>Source files\Libraries\CMSIS\CM3\CoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c">
+      <Filter>Source files\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>Source files\Libraries\STM32F10x_StdPeriph_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\STM32_ETH_Driver\src\stm32_eth.c">
+      <Filter>Source files\Libraries\STM32_ETH_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\HQS_SYS\HQS_SYS.c">
+      <Filter>Source files\stm32f10xHAL\HQS_SYS</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\USART1HAL\USART1.c">
+      <Filter>Source files\stm32f10xHAL\USART1HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\ETHCFHAL\ETHCFHAL.c">
+      <Filter>Source files\stm32f10xHAL\ETHCFHAL</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\USART2HAL\USART2.c">
+      <Filter>Source files\stm32f10xHAL\USART2HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\IOOutHQS\IOOutHQS.c">
+      <Filter>Source files\HQS\IOOutHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\IOOutHALHQS\IOOutHALHQS.c">
+      <Filter>Source files\stm32f10xHAL\IOOutHALHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\doc\contrib.txt">
+      <Filter>Source files\lwip-1.4.1\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\doc\rawapi.txt">
+      <Filter>Source files\lwip-1.4.1\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\doc\savannah.txt">
+      <Filter>Source files\lwip-1.4.1\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\doc\snmp_agent.txt">
+      <Filter>Source files\lwip-1.4.1\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\doc\sys_arch.txt">
+      <Filter>Source files\lwip-1.4.1\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\api_lib.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\api_msg.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\err.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\netbuf.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\netdb.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\netifapi.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\sockets.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\api\tcpip.c">
+      <Filter>Source files\lwip-1.4.1\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\def.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\dhcp.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\dns.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\init.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\mem.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\memp.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\netif.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\pbuf.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\raw.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\stats.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\sys.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\tcp.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\tcp_in.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\tcp_out.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\timers.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\udp.c">
+      <Filter>Source files\lwip-1.4.1\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\autoip.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\icmp.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\igmp.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\inet.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\inet_chksum.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\ip.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\ip_addr.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\core\ipv4\ip_frag.c">
+      <Filter>Source files\lwip-1.4.1\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\netif\etharp.c">
+      <Filter>Source files\lwip-1.4.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\src\netif\ethernetif.c">
+      <Filter>Source files\lwip-1.4.1\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\arch\sys_arch.c">
+      <Filter>Source files\lwip-1.4.1\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSlwip.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSUDP\HQSUDP.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSTcpClient\HQSTcpClient.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSTcpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSTcpService\HQSTcpService.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSTcpService</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSWeb\fs.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSWeb\fsdata.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSWeb\httpd.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip-1.4.1\HQSlwip\HQSWeb\httpd_cgi_ssi.c">
+      <Filter>Source files\lwip-1.4.1\HQSlwip\HQSWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\FlashRWHALHQS\FlashRWHALHQS.c">
+      <Filter>Source files\stm32f10xHAL\FlashRWHALHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\memPithyHQS\memPithyHQS.c">
+      <Filter>Source files\HQS\memPithyHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="APP\APP_ResolveOut\APP_ResolveOut.c">
+      <Filter>Source files\APP\APP_ResolveOut</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\OSHQS\OSHQS.c">
+      <Filter>Source files\HQS\OSHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\msgOSHQS\msgOSHQS.c">
+      <Filter>Source files\HQS\msgOSHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\PVDHAL\PVDHAL.c">
+      <Filter>Source files\stm32f10xHAL\PVDHAL</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\BKPHAL\BKPHAL.c">
+      <Filter>Source files\stm32f10xHAL\BKPHAL</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\RTCHAL\RTCHAL.c">
+      <Filter>Source files\stm32f10xHAL\RTCHAL</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\TimeHQS\TimeHQS.c">
+      <Filter>Source files\HQS\TimeHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="HQS\activationCodeHQS\activationCodeHQS.c">
+      <Filter>Source files\HQS\activationCodeHQS</Filter>
+    </ClCompile>
+    <ClCompile Include="stm32f10xHAL\TIMcountHAL\TIMcountHAL.c">
+      <Filter>Source files\stm32f10xHAL\TIMcountHAL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="HQSVis-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="HQSVis-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\TrueSTUDIO\STM32F107VC_FLASH.ld">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\TrueSTUDIO\startup_stm32f10x_cl.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="stm32f10xHAL\FlashRWHALHQS\read.txt">
+      <Filter>Source files\stm32f10xHAL\FlashRWHALHQS</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
